@@ -18,7 +18,7 @@ import CloudDownloadOutlinedIcon from "@mui/icons-material/CloudDownloadOutlined
 import UploadFileIcon from "@mui/icons-material/UploadFile";
 import { StyledFlexBox } from "./styles";
 import { Typography } from "@mui/material";
-
+/*this is the MainBodyData component which is created for styling the table of the main data*/
 const MainBodyData = ({ dataTable, HeaderTitles }) => {
   return (
     <StyledTableContainer component={Paper}>

@@ -1,3 +1,4 @@
+/*this file contains the titles of headers of the data table,and the dummy data of the main table*/
 function createData(file, title,type) {
     return { file, title,type };
   }

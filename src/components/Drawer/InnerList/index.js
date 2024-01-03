@@ -6,7 +6,7 @@ import {
   StyledListTextTypography,
   StyledSideListItemButton,
 } from "./styles";
-
+/*this is the Inner List component for the list in the drawer component */
 const InnerList = ({ data }) => {
   return (
     <List>

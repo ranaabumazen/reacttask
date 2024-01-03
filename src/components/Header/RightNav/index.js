@@ -4,7 +4,7 @@ import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNone
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import { StyledFlexBox } from "../../sharedstyles";
 import { StyledBadge } from "./styles";
-
+/*this is the Right Nav component which contains the icons (notification,account,light mode,languge) */
 const RightNav = () => {
   return (
     <StyledFlexBox>

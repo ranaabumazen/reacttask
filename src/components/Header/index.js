@@ -21,10 +21,9 @@ import PlaylistAddCheckOutlinedIcon from "@mui/icons-material/PlaylistAddCheckOu
 import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
 import SendToMobileOutlinedIcon from "@mui/icons-material/SendToMobileOutlined";
 import ForkLeftOutlinedIcon from "@mui/icons-material/ForkLeftOutlined";
-import { IconButton, Typography } from "@mui/material";
+import { IconButton } from "@mui/material";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
-import MainBodyData from "../MainBody";
+import MainBodyData from "../MainBodyData";
 import { HeaderTitles, dataTable } from "./dataTable";
 
 const drawerList = [
@@ -35,7 +34,7 @@ const drawerList = [
   { text: "Enrollments", icon: <AssignmentTurnedInOutlinedIcon /> },
   { text: "Shared knowledge", icon: <SendToMobileOutlinedIcon /> },
 ];
-
+/*this is the Header component which conatins the appbar ,drawer and the body data */
 const drawerWidth = 240;
 const Header = () => {
   return (
@@ -47,7 +46,6 @@ const Header = () => {
         }}
       >
         <StyledToolBar>
-          {" "}
           <StyledOuterIconButton>
             <StyledInnerIconButton>
               <StyledArrowIcon />
@@ -74,7 +72,7 @@ const Header = () => {
           </StyledTitleTypography>
           <StyledFlexBox>
             <StyledSubTitleTypography>
-              {"Home /  Shared knowledge /  "}
+           Home /  Shared knowledge / 
             </StyledSubTitleTypography>
             <StyledSubTitleTypography sx={{color:"#bbc3cc"}}>
               &nbsp;Communications
